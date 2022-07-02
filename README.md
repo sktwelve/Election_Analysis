@@ -28,5 +28,4 @@ We have been enlisted by the board of elections to help automate their election 
 
 ## Election Audit Summary
 
-
-
+We have completed the objective of both automating the process of the audit and providing the winner of the election using our code. I believe that this code could be using other audit as only come tweaks would be necessary. As long as the csvs are provided, a for loop could be added at the start of the document to run through multiple datasets for multiple districts. Another idea for this concept would be instead to use an input statement at the start of the code to enter the filename of the data to analyze so the data file wouldn't have to be renamed before running the program.
