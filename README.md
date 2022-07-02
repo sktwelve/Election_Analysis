@@ -1,23 +1,32 @@
-# Election_Analysis
+# Election Analysis
 
-##Overview of Election Audit: Explain the purpose of this analysis.
+## Overview of Election Audit
+
 We have been enlisted by the board of elections to help automate their election audit processes by using a congessional precinct as a means of a test. Should the test go well, then the analysis used now will used in other districts and eventually in local elections. We will make code that imports data, runs through it will counting and separating the data to then calculate totals and declare the winner. 
 
-##Election Audit Results: Use images of examples of your code if necessary to support your evidence.
+## Results
 
-  -How many total votes were cast in this congressional election?
-  -Provide a breakdown of number of votes and percentage of total votes for each county each in the precinct.
-  -Which county had the largest number of votes?
-  -Provide a breakdown of the number votes and percentage of total votes each candidate received.
-  -Which candidate won the election, what was their total number of votes and percentage of total votes?
+  This is the data obtained from the audit:
 
-##Election Audit Summary: In a summary statement provide a business proposal to the election commission on how this script can be used for any election with some modifications. Give at least two examples of how this script can be modified to meet business requirements to convince the election commission to use this script for future elections.
+  - The total amount of votes is 369,711, found by counting the rows in the data provided using the following code:
+  
+  ![code used to reiterate and count the votes](Resources/count.PNG)
+  
+  - The votes broken down by county are as follows: 
 
-Hint: In the statement, we would like you to use some critical thinking. Here are a few examples that will meet this requirement:
+![results of the election broken down by county](Resources/county.PNG)
+  
+  - The county with the largest voter turnout is Denver county. While the code prints the analysis data to the terminal and text file, it allow determines the largest amount of votes by cross-examining the saved largest vote number with the currently loaded county to find the which one is larger.
+  
+![code used to find the largest county](Resources/large.PNG)
 
-    Refactor the election script by using functions. Although we haven't covered writing functions (D.R.Y) in this module, the Day 2 Required lesson plan does have an activity.
+  - The votes broken down by candidate are as follows:
+  
+![results of the election broken down by candidate](Resources/win.PNG)
 
-    Adding a condition-controlled loop (while loop) to ask the user the name of the input file and output file to save the data, if give many files.
+  - Diana DeGette is the winning candidate, receiving 272,892 votes which is 73.8% of the voting populace.
 
-    Adding a repetition statement (for loop) to loop through many input files and using the file name as a parameter for a function.
+## Election Audit Summary
+
+
 
